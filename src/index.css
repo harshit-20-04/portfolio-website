@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes pulse-once {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.animate-pulse-once {
+  animation: pulse-once 1.5s ease-in-out 1; /* Runs only once */
+}
+
+/* Utility class to keep initial elements visible while other animations run */
+.fill-mode-forwards {
+  animation-fill-mode: forwards;
+}
+
+/* --- Bubble Animation Styles (NEW) --- */
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-100vh) scale(1.2);
+    opacity: 0;
+  }
+}
+.bubble-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0; /* Keep behind content */
+}
+.bubble {
+  position: absolute;
+  bottom: -50px; /* Start below the viewport */
+  background: rgba(52, 211, 163, 0.1); /* Teal-400 with low opacity */
+  border-radius: 50%;
+  animation: float infinite linear;
+  box-shadow: 0 0 10px rgba(52, 211, 163, 0.3);
+  /* Initial setup to ensure the first animation frame looks right */
+  transform: translateY(0);
+  opacity: 0.5;
+}
