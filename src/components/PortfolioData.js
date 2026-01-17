@@ -13,6 +13,13 @@ const portfolioData = {
       technologies: ["Node.js", "Express", "MongoDB", "EJS"],
       link:"https://wandrlyfindyourdestination.vercel.app",
     },
+    {
+      id: 2,
+      title:"Quantara – Stock Buy & Sell Platform",
+      description: "Developed a responsive web application for tracking, buying, and selling stocks in real-time. Implemented dynamic charts, watchlists, and portfolio management features to provide users with a seamless stock trading experience.",
+      technologies:['React', 'Node.js', 'Express', 'MongoDB', 'Chart.js', 'REST APIs', 'CSS Modules'],
+      link:"https://github.com/harshit-20-04/Quantara-stock-buy-sell",
+    }
   ],
   skills: [
     "JavaScript (ES6+)", "React & Redux", "Tailwind CSS", "Node.js & Express",
