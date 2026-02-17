@@ -67,7 +67,7 @@ const Projects = () => {
                 ))}
               </div>
               <div className="pt-5">
-                <a href='https://wandrlyfindyourdestination.vercel.app/' target='_blank'><button className="hidden sm:block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 shadow-md shadow-teal-500/30 transform hover:scale-105">Visit Now</button></a>
+                <a href={project.link} target='_blank'><button className="hidden sm:block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 shadow-md shadow-teal-500/30 transform hover:scale-105">Visit Now</button></a>
                 </div>
             </div>
           ))}

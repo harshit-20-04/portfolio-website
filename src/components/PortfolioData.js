@@ -19,6 +19,13 @@ const portfolioData = {
       description: "Developed a responsive web application for tracking, buying, and selling stocks in real-time. Implemented dynamic charts, watchlists, and portfolio management features to provide users with a seamless stock trading experience.",
       technologies:['React', 'Node.js', 'Express', 'MongoDB', 'Chart.js', 'REST APIs', 'CSS Modules'],
       link:"https://github.com/harshit-20-04/Quantara-stock-buy-sell",
+    },
+    {
+      id:3,
+      title: "Video Meet – Real-Time Video Conferencing Platform",
+      description:"Developed a full-stack real-time video conferencing web application that enables users to join and host video meetings with seamless audio/video communication. This project leverages WebRTC for peer-to-peer media streaming and Socket.io for real-time signaling between clients and server, ensuring efficient connection setup and interaction.",
+      technologies:['React', 'Node.js', 'Express', 'MongoDB', 'WebRTC', 'Socket.io', 'REST APIs', 'CSS Modules'],
+      link:"https://video-meet-woad.vercel.app",
     }
   ],
   skills: [
