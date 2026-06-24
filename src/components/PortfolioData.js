@@ -1,7 +1,7 @@
 const portfolioData = {
   name: "Harshit Sharma (Full Stack Developer)",
   tagline: "Building digital realities at the intersection of logic and design.",
-  email: "harshit2004@zoho.mail.in",
+  email: "05harshit.sharma2004@gmail.com",
   github: "https://github.com/harshit-20-04/",
   linkedin: "https://www.linkedin.com/in/harshit-sharma-ac8896/",
   bio: "A full-stack wizard specializing in high-performance computing, decentralized systems, and elegant user interfaces. Project Focus: Leveraging the MERN (MongoDB, Express, React, Node) stack, this application demonstrates my ability to design and implement a complex, scalable system from the ground up. It features real-time data synchronization, robust user authentication (JWT), and a highly responsive, modern UI, showcasing a deep command over both server-side logic and front-end state management.",
