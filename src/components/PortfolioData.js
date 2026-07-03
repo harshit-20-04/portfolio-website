@@ -1,37 +1,159 @@
+
+
 const portfolioData = {
-  name: "Harshit Sharma (Full Stack Developer)",
-  tagline: "Building digital realities at the intersection of logic and design.",
-  email: "harshit2004@zoho.mail.in",
-  github: "https://github.com/harshit-20-04/",
+  name: "Harshit Sharma",
+  tagline:
+    "Aspiring AI/ML Engineer | Generative AI Developer | Full Stack Developer",
+  email: "05harshit.sharma2004@gmail.com",
+  github: "https://github.com/harshit-20-04",
   linkedin: "https://www.linkedin.com/in/harshit-sharma-ac8896/",
-  bio: "A full-stack wizard specializing in high-performance computing, decentralized systems, and elegant user interfaces. Project Focus: Leveraging the MERN (MongoDB, Express, React, Node) stack, this application demonstrates my ability to design and implement a complex, scalable system from the ground up. It features real-time data synchronization, robust user authentication (JWT), and a highly responsive, modern UI, showcasing a deep command over both server-side logic and front-end state management.",
+
+  bio: `Final-year B.Tech Computer Science student passionate about building
+AI-powered applications using Large Language Models, Retrieval-Augmented
+Generation (RAG), Machine Learning, and Full Stack Development.
+Experienced in developing production-ready AI assistants, conversational
+chatbots, deep learning applications, and scalable web applications.
+Strong foundation in Data Structures & Algorithms, OOP, DBMS,
+Operating Systems, and Computer Networks.`,
+
   projects: [
     {
       id: 1,
-      title: "Wandrly – A Full-Stack Web Application",
-      description: "Wandrly is a dynamic full-stack web application that allows users to explore, create, and review travel listings from across the globe. Built using Node.js, Express, EJS, and MongoDB, it features secure user authentication, CRUD operations, and real-time reviews with data validation. The project emphasizes clean UI, scalable architecture, and real-world deployment on Render for seamless accessibility.",
-      technologies: ["Node.js", "Express", "MongoDB", "EJS"],
-      link:"https://wandrlyfindyourdestination.vercel.app",
+      title: "DocMind – AI RAG Document Assistant",
+      description:
+        "A locally-hosted Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and chat with them using natural language. Built using LangChain, ChromaDB, and Mistral AI with semantic search for accurate context-aware responses while keeping all data private.",
+      technologies: [
+        "Python",
+        "Flask",
+        "LangChain",
+        "ChromaDB",
+        "Mistral AI",
+        "RAG",
+        "HTML",
+        "CSS",
+      ],
+      link: "https://github.com/harshit-20-04/DocMind",
     },
+
     {
       id: 2,
-      title:"Quantara – Stock Buy & Sell Platform",
-      description: "Developed a responsive web application for tracking, buying, and selling stocks in real-time. Implemented dynamic charts, watchlists, and portfolio management features to provide users with a seamless stock trading experience.",
-      technologies:['React', 'Node.js', 'Express', 'MongoDB', 'Chart.js', 'REST APIs', 'CSS Modules'],
-      link:"https://github.com/harshit-20-04/Quantara-stock-buy-sell",
+      title: "Mood-Bot – AI Conversational Chatbot",
+      description:
+        "An intelligent chatbot capable of detecting user sentiment and generating mood-aware responses using Large Language Models. Supports real-time response streaming for a smooth conversational experience.",
+      technologies: [
+        "Python",
+        "Flask",
+        "LangChain",
+        "Mistral AI",
+        "LLMs",
+        "HTML",
+        "CSS",
+      ],
+      link: "https://github.com/harshit-20-04/mood-bot",
     },
+
     {
-      id:3,
-      title: "Video Meet – Real-Time Video Conferencing Platform",
-      description:"Developed a full-stack real-time video conferencing web application that enables users to join and host video meetings with seamless audio/video communication. This project leverages WebRTC for peer-to-peer media streaming and Socket.io for real-time signaling between clients and server, ensuring efficient connection setup and interaction.",
-      technologies:['React', 'Node.js', 'Express', 'MongoDB', 'WebRTC', 'Socket.io', 'REST APIs', 'CSS Modules'],
-      link:"https://video-meet-woad.vercel.app",
-    }
+      id: 3,
+      title: "AI Quote Generator",
+      description:
+        "A deep learning project that trains an LSTM neural network to generate original quotes from text sequences. Includes a Streamlit web interface for interactive text generation.",
+      technologies: [
+        "Python",
+        "TensorFlow",
+        "LSTM",
+        "NLP",
+        "Streamlit",
+      ],
+      link: "https://github.com/harshit-20-04/AI-Quote-Generator",
+    },
+
+    {
+      id: 4,
+      title: "Video Meet – Real-Time Video Conferencing",
+      description:
+        "A full-stack real-time video conferencing platform built using WebRTC and React. Supports peer-to-peer audio/video communication with efficient signaling using Socket.io.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "WebRTC",
+        "Socket.io",
+        "JavaScript",
+      ],
+      link: "https://github.com/harshit-20-04/video-meet",
+    },
+
+    {
+      id: 5,
+      title: "Quantara – Stock Buy & Sell Platform",
+      description:
+        "A responsive stock trading platform featuring portfolio management, watchlists, dynamic stock charts, and REST API integration for tracking and managing investments.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Chart.js",
+        "REST APIs",
+        "CSS Modules",
+      ],
+      link:
+        "https://github.com/harshit-20-04/Quantara-stock-buy-sell",
+    },
   ],
-  skills: [
-    "JavaScript (ES6+)", "React & Redux", "Tailwind CSS", "Node.js & Express",
-    "Python", "MySQL & MongoDB", "Cloud Platforms (AWS/GCP)"
-  ]
+  
+  skills: {
+    languages: [
+      "Python",
+      "JavaScript",
+      "Java",
+      "C++",
+      "SQL",
+    ],
+
+    ai_ml: [
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Generative AI",
+      "Large Language Models (LLMs)",
+      "Retrieval-Augmented Generation (RAG)",
+      "LangChain",
+      "TensorFlow",
+      "LSTM",
+      "Mistral AI",
+      "ChromaDB",
+      "Prompt Engineering",
+    ],
+
+    web: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Flask",
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "MongoDB",
+      "WebRTC",
+      "REST APIs",
+    ],
+
+    tools: [
+      "Git",
+      "GitHub",
+      "Streamlit",
+      "VS Code",
+    ],
+
+    fundamentals: [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "DBMS",
+      "Operating Systems",
+      "Computer Networks",
+    ],
+  },
 };
 
 export default portfolioData;

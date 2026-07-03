@@ -37,7 +37,68 @@ const Skills = () => {
                 <SectionTitle icon={Code} title="Technical Stack" />
                 <div className="max-w-4xl mx-auto">
                     <div className="flex flex-wrap justify-center gap-4">
-                        {portfolioData.skills.map((skill, index) => (
+                        {portfolioData.skills.languages.map((skill, index) => {
+                            return(
+                            <div
+                                key={index}
+                                className={`
+                                    px-6 py-3 bg-gray-900 text-lg font-medium text-white rounded-full border-2 border-teal-500 transition-all duration-500 ease-out cursor-default
+                                    hover:bg-teal-500 hover:text-gray-900 shadow-md hover:shadow-teal-500/50 transform
+                                    ${getDelayClass(index * 2)}
+                                    ${isVisible
+                                    ? 'opacity-100 scale-100'
+                                    : 'opacity-0 scale-90'}
+                                `}
+                            >
+                                {skill}
+                            </div>
+                        )})}
+                        {portfolioData.skills.ai_ml.map((skill, index) => (
+                            <div
+                                key={index}
+                                className={`
+                                    px-6 py-3 bg-gray-900 text-lg font-medium text-white rounded-full border-2 border-teal-500 transition-all duration-500 ease-out cursor-default
+                                    hover:bg-teal-500 hover:text-gray-900 shadow-md hover:shadow-teal-500/50 transform
+                                    ${getDelayClass(index * 2)}
+                                    ${isVisible
+                                    ? 'opacity-100 scale-100'
+                                    : 'opacity-0 scale-90'}
+                                `}
+                            >
+                                {skill}
+                            </div>
+                        ))}
+                        {portfolioData.skills.web.map((skill, index) => (
+                            <div
+                                key={index}
+                                className={`
+                                    px-6 py-3 bg-gray-900 text-lg font-medium text-white rounded-full border-2 border-teal-500 transition-all duration-500 ease-out cursor-default
+                                    hover:bg-teal-500 hover:text-gray-900 shadow-md hover:shadow-teal-500/50 transform
+                                    ${getDelayClass(index * 2)}
+                                    ${isVisible
+                                    ? 'opacity-100 scale-100'
+                                    : 'opacity-0 scale-90'}
+                                `}
+                            >
+                                {skill}
+                            </div>
+                        ))}
+                        {portfolioData.skills.tools.map((skill, index) => (
+                            <div
+                                key={index}
+                                className={`
+                                    px-6 py-3 bg-gray-900 text-lg font-medium text-white rounded-full border-2 border-teal-500 transition-all duration-500 ease-out cursor-default
+                                    hover:bg-teal-500 hover:text-gray-900 shadow-md hover:shadow-teal-500/50 transform
+                                    ${getDelayClass(index * 2)}
+                                    ${isVisible
+                                    ? 'opacity-100 scale-100'
+                                    : 'opacity-0 scale-90'}
+                                `}
+                            >
+                                {skill}
+                            </div>
+                        ))}
+                        {portfolioData.skills.fundamentals.map((skill, index) => (
                             <div
                                 key={index}
                                 className={`
