@@ -1,5 +1,3 @@
-
-
 const portfolioData = {
   name: "Harshit Sharma",
   tagline:
@@ -101,7 +99,7 @@ Operating Systems, and Computer Networks.`,
         "https://github.com/harshit-20-04/Quantara-stock-buy-sell",
     },
   ],
-  
+
   skills: {
     languages: [
       "Python",
