@@ -17,6 +17,24 @@ Operating Systems, and Computer Networks.`,
   projects: [
     {
       id: 1,
+      title: "Transcript Console – Video/Audio RAG Knowledge Base",
+      description:
+        "A full-stack application that turns any video or audio (URL or local file) into a searchable, chattable knowledge base. Uses Groq Whisper for transcription, then generates summaries, action items, key decisions, and questions asked, plus a RAG chatbot powered by LangChain and ChromaDB that answers questions grounded in the transcript.",
+      technologies: [
+        "Python",
+        "Flask",
+        "Groq Whisper",
+        "Mistral AI",
+        "LangChain",
+        "ChromaDB",
+        "JavaScript",
+        "HTML",
+        "CSS",
+      ],
+      link: "https://github.com/harshit-20-04/TRANSCRIPT-CONSOLE",
+    },
+    {
+      id: 2,
       title: "DocMind – AI RAG Document Assistant",
       description:
         "A locally-hosted Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and chat with them using natural language. Built using LangChain, ChromaDB, and Mistral AI with semantic search for accurate context-aware responses while keeping all data private.",
@@ -34,7 +52,7 @@ Operating Systems, and Computer Networks.`,
     },
 
     {
-      id: 2,
+      id: 3,
       title: "Mood-Bot – AI Conversational Chatbot",
       description:
         "An intelligent chatbot capable of detecting user sentiment and generating mood-aware responses using Large Language Models. Supports real-time response streaming for a smooth conversational experience.",
@@ -51,7 +69,7 @@ Operating Systems, and Computer Networks.`,
     },
 
     {
-      id: 3,
+      id: 4,
       title: "AI Quote Generator",
       description:
         "A deep learning project that trains an LSTM neural network to generate original quotes from text sequences. Includes a Streamlit web interface for interactive text generation.",
@@ -66,7 +84,7 @@ Operating Systems, and Computer Networks.`,
     },
 
     {
-      id: 4,
+      id: 5,
       title: "Video Meet – Real-Time Video Conferencing",
       description:
         "A full-stack real-time video conferencing platform built using WebRTC and React. Supports peer-to-peer audio/video communication with efficient signaling using Socket.io.",
@@ -82,7 +100,7 @@ Operating Systems, and Computer Networks.`,
     },
 
     {
-      id: 5,
+      id: 6,
       title: "Quantara – Stock Buy & Sell Platform",
       description:
         "A responsive stock trading platform featuring portfolio management, watchlists, dynamic stock charts, and REST API integration for tracking and managing investments.",
